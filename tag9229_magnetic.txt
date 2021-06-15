@@ -1,0 +1,1 @@
+data-decoding-software,key-bin-checksum,tag-serial-number,start-timestamp,magnetic-field-sampling-frequency-per-axis,magnetic-fields-raw

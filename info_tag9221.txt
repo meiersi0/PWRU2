@@ -1,0 +1,671 @@
+Data decoder version v13 compiled (w)Jun 23 2020 11:01:53
+Going through data:
+
+Data download:
+Basestation Id: 33280
+5200,29.5.2021,Sa,15:13:59
+Animal tag still has 42944 Bytes data for download available.
+Altogether 0.041 MBytes are used, which will be freed
+only after a COMPLETE data download.
+
+B5:GPS-ACC-Tag Software vers No.:10
+
+Printing tag settings tt5_10, SV1, valid at the point in time of the data download:
+Printing enabled features:
+FEATURE_WITH_ACC_VARIANCE
+FEATURE_WITH_BURST_MODE
+FEATURE_WITH_DELAYED_START
+FEATURE_WITH_GPS_NOT_EVERY_DAY
+FEATURE_WITH_MMA8452_SMBUS
+FEATURE_WITH_SOLARVARIANCE
+End of features.
+
+
+-------------- ACC-Settings: ------------------
+ACC INTERVAL: 120 seconds == 2 minutes 0 s
+ACC BYTE COUNT: 480 bytes => 330 ACC SAMPLES (for all axes together)
+ACC-AXES: XYZ
+ACC SAMPLERATE DIVISOR:10
+ACC SAMPLERATE per axis:10.00 Hz
+ACC ON FROM: 00:00 GPSTIME
+ACC ON UNTIL:00:00 GPSTIME
+ACC LOW SPEED INTERVAL FACTOR:1 (if supported by device)
+
+-------------- GPS-Settings: ------------------
+GPS RETRY INTERVAL FACTOR: 1
+GPS LOW SPEED INTERVAL FACTOR: 1
+GPS LOW SPEED THRESHOLD: 50 cm/s
+GPS ON FROM: 00:00 GPSTIME
+GPS ON UNTIL:23:59 GPSTIME
+GPS TIMEOUT: 150 seconds
+
+-------------- Radio- and other Settings: ------------------
+Ping freq:868.060135 MHz = 868060.134888 kHz
+rf_pingpower:8
+PING ON FROM: 04:00 GPSTIME
+PING ON UNTIL:19:00 GPSTIME
+pinger_interval:2
+datalink 2010
+bat_threshold2: code:2949 => 3599 MilliVolt
+bat_threshold1: code:2949 => 3599 MilliVolt
+bat_threshold0: code:2826 => 3449 MilliVolt
+maccess_voltlimit: code:2826 => 3449 MilliVolt
+ACC INVERSE SPEED FACTOR NOT ENABLED (=default)
+access_key:12
+secret_key:13482
+radio_interval:20
+radio_longdelay:900
+burst_length:1
+burst_qperiod:1
+Delayed start:0,4.3.2007,So,00:00:00
+gps_hourshift:0
+gps_daydivisor:1
+###### Tag with variance feature, following settings apply: ######
+ACC-VARIANCE-AXIS: Z
+ACC VAR THRESHOLD: 1000
+ACC VAR N1: 2
+ACC VAR N2: 1
+GPS LOW RESOLUTION INTERVAL: 900
+GPS HIGH RESOLUTION INTERVAL: 120
+
+
+Close info:
+
+totalcount up to here: 42944 Bytes, since last open: 42944 Bytes
+(data complete)
+Now analysing data:
+basestation info:
+Rewrite counter:83
+e-obs GmbH, The Digital Telemetry company, Germany
+
+Reset-Event. Status:
+5181,10.5.2021,Mo,06:17:50 RS:0x01 VMON:0xC0
+Hardware trigger (e.g. with magnet)
+Battery Voltage: 3785 mV, at last gpsfix: 0 mV
+SWITCH is ON
+
+
+ON-OFF-SWITCH-Event. Status:
+5181,10.5.2021,Mo,06:17:50 RS:0x01 VMON:0xC0
+Battery Voltage: 3785 mV, at last gpsfix: 0 mV
+SWITCH is OFF
+
+
+Reset-Event. Status:
+5192,21.5.2021,Fr,14:37:20 RS:0x01 VMON:0xC0
+Hardware trigger (e.g. with magnet)
+Battery Voltage: 3879 mV, at last gpsfix: 0 mV
+SWITCH is OFF
+
+
+Reset-Event. Status:
+5194,23.5.2021,So,08:42:25 RS:0x01 VMON:0xC0
+Hardware trigger (e.g. with magnet)
+Battery Voltage: 3885 mV, at last gpsfix: 0 mV
+SWITCH is OFF
+
+
+ON-OFF-SWITCH-Event. Status:
+5194,23.5.2021,So,08:44:02 RS:0x01 VMON:0xC0
+Battery Voltage: 3885 mV, at last gpsfix: 0 mV
+SWITCH is ON
+
+
+GPS-STATUS-Event. Status:
+5194,23.5.2021,So,09:47:33 RS:0x01 VMON:0xC0
+Battery Voltage: 3864 mV, at last gpsfix: 3853 mV
+SWITCH is ON
+errorflags:0x00
+count_unimpl_ubx:0x00
+ubx_crc_error:0x00
+unexpected:0x00
+noiseperms:0x00
+rtcflags:0x00
+ack_nak_payload ack_nak_data:0x00
+smbus_error_flags:0x92
+nak_error_tx_index:0xFB
+mpu9250_errors:0xB8
+dmp_erraddr:0x91
+dbg_fifcont:0x46
+
+
+GPS-STATUS-Event. Status:
+5194,23.5.2021,So,11:02:32 RS:0x01 VMON:0xC0
+Battery Voltage: 3843 mV, at last gpsfix: 3829 mV
+SWITCH is ON
+errorflags:0x00
+count_unimpl_ubx:0x00
+ubx_crc_error:0x00
+unexpected:0x00
+noiseperms:0x00
+rtcflags:0x00
+ack_nak_payload ack_nak_data:0x00
+smbus_error_flags:0x92
+nak_error_tx_index:0xFB
+mpu9250_errors:0xB8
+dmp_erraddr:0x91
+dbg_fifcont:0x46
+
+
+GPS-STATUS-Event. Status:
+5194,23.5.2021,So,12:17:33 RS:0x01 VMON:0xC0
+Battery Voltage: 3826 mV, at last gpsfix: 3822 mV
+SWITCH is ON
+errorflags:0x00
+count_unimpl_ubx:0x00
+ubx_crc_error:0x00
+unexpected:0x00
+noiseperms:0x00
+rtcflags:0x00
+ack_nak_payload ack_nak_data:0x00
+smbus_error_flags:0x92
+nak_error_tx_index:0xFB
+mpu9250_errors:0xB8
+dmp_erraddr:0x91
+dbg_fifcont:0x46
+
+
+GPS-STATUS-Event. Status:
+5194,23.5.2021,So,13:32:32 RS:0x01 VMON:0xC0
+Battery Voltage: 3817 mV, at last gpsfix: 3812 mV
+SWITCH is ON
+errorflags:0x00
+count_unimpl_ubx:0x00
+ubx_crc_error:0x00
+unexpected:0x00
+noiseperms:0x00
+rtcflags:0x00
+ack_nak_payload ack_nak_data:0x00
+smbus_error_flags:0x92
+nak_error_tx_index:0xFB
+mpu9250_errors:0xB8
+dmp_erraddr:0x91
+dbg_fifcont:0x46
+
+
+GPS-STATUS-Event. Status:
+5194,23.5.2021,So,14:47:33 RS:0x01 VMON:0xC0
+Battery Voltage: 3807 mV, at last gpsfix: 3802 mV
+SWITCH is ON
+errorflags:0x00
+count_unimpl_ubx:0x00
+ubx_crc_error:0x00
+unexpected:0x00
+noiseperms:0x00
+rtcflags:0x00
+ack_nak_payload ack_nak_data:0x00
+smbus_error_flags:0x92
+nak_error_tx_index:0xFB
+mpu9250_errors:0xB8
+dmp_erraddr:0x91
+dbg_fifcont:0x46
+
+
+GPS-STATUS-Event. Status:
+5194,23.5.2021,So,16:02:32 RS:0x01 VMON:0xC0
+Battery Voltage: 3796 mV, at last gpsfix: 3789 mV
+SWITCH is ON
+errorflags:0x00
+count_unimpl_ubx:0x00
+ubx_crc_error:0x00
+unexpected:0x00
+noiseperms:0x00
+rtcflags:0x00
+ack_nak_payload ack_nak_data:0x00
+smbus_error_flags:0x92
+nak_error_tx_index:0xFB
+mpu9250_errors:0xB8
+dmp_erraddr:0x91
+dbg_fifcont:0x46
+
+
+GPS-STATUS-Event. Status:
+5194,23.5.2021,So,17:17:33 RS:0x01 VMON:0xC0
+Battery Voltage: 3786 mV, at last gpsfix: 3779 mV
+SWITCH is ON
+errorflags:0x00
+count_unimpl_ubx:0x00
+ubx_crc_error:0x00
+unexpected:0x00
+noiseperms:0x00
+rtcflags:0x00
+ack_nak_payload ack_nak_data:0x00
+smbus_error_flags:0x92
+nak_error_tx_index:0xFB
+mpu9250_errors:0xB8
+dmp_erraddr:0x91
+dbg_fifcont:0x46
+
+
+GPS-STATUS-Event. Status:
+5194,23.5.2021,So,18:32:32 RS:0x01 VMON:0xC0
+Battery Voltage: 3779 mV, at last gpsfix: 3770 mV
+SWITCH is ON
+errorflags:0x00
+count_unimpl_ubx:0x00
+ubx_crc_error:0x00
+unexpected:0x00
+noiseperms:0x00
+rtcflags:0x00
+ack_nak_payload ack_nak_data:0x00
+smbus_error_flags:0x92
+nak_error_tx_index:0xFB
+mpu9250_errors:0xB8
+dmp_erraddr:0x91
+dbg_fifcont:0x46
+
+
+GPS-STATUS-Event. Status:
+5194,23.5.2021,So,19:47:32 RS:0x01 VMON:0xC0
+Battery Voltage: 3775 mV, at last gpsfix: 3767 mV
+SWITCH is ON
+errorflags:0x00
+count_unimpl_ubx:0x00
+ubx_crc_error:0x00
+unexpected:0x00
+noiseperms:0x00
+rtcflags:0x00
+ack_nak_payload ack_nak_data:0x00
+smbus_error_flags:0x92
+nak_error_tx_index:0xFB
+mpu9250_errors:0xB8
+dmp_erraddr:0x91
+dbg_fifcont:0x46
+
+
+GPS-STATUS-Event. Status:
+5194,23.5.2021,So,21:02:32 RS:0x01 VMON:0xC0
+Battery Voltage: 3770 mV, at last gpsfix: 3759 mV
+SWITCH is ON
+errorflags:0x00
+count_unimpl_ubx:0x00
+ubx_crc_error:0x00
+unexpected:0x00
+noiseperms:0x00
+rtcflags:0x00
+ack_nak_payload ack_nak_data:0x00
+smbus_error_flags:0x92
+nak_error_tx_index:0xFB
+mpu9250_errors:0xB8
+dmp_erraddr:0x91
+dbg_fifcont:0x46
+
+
+GPS-STATUS-Event. Status:
+5194,23.5.2021,So,22:17:32 RS:0x01 VMON:0xC0
+Battery Voltage: 3767 mV, at last gpsfix: 3754 mV
+SWITCH is ON
+errorflags:0x00
+count_unimpl_ubx:0x00
+ubx_crc_error:0x00
+unexpected:0x00
+noiseperms:0x00
+rtcflags:0x00
+ack_nak_payload ack_nak_data:0x00
+smbus_error_flags:0x92
+nak_error_tx_index:0xFB
+mpu9250_errors:0xB8
+dmp_erraddr:0x91
+dbg_fifcont:0x46
+
+
+GPS-STATUS-Event. Status:
+5194,23.5.2021,So,23:32:32 RS:0x01 VMON:0xC0
+Battery Voltage: 3760 mV, at last gpsfix: 3754 mV
+SWITCH is ON
+errorflags:0x00
+count_unimpl_ubx:0x00
+ubx_crc_error:0x00
+unexpected:0x00
+noiseperms:0x00
+rtcflags:0x00
+ack_nak_payload ack_nak_data:0x00
+smbus_error_flags:0x92
+nak_error_tx_index:0xFB
+mpu9250_errors:0xB8
+dmp_erraddr:0x91
+dbg_fifcont:0x46
+
+
+GPS-STATUS-Event. Status:
+5195,24.5.2021,Mo,00:47:32 RS:0x01 VMON:0xC0
+Battery Voltage: 3754 mV, at last gpsfix: 3746 mV
+SWITCH is ON
+errorflags:0x00
+count_unimpl_ubx:0x00
+ubx_crc_error:0x00
+unexpected:0x00
+noiseperms:0x00
+rtcflags:0x00
+ack_nak_payload ack_nak_data:0x00
+smbus_error_flags:0x92
+nak_error_tx_index:0xFB
+mpu9250_errors:0xB8
+dmp_erraddr:0x91
+dbg_fifcont:0x46
+
+
+GPS-STATUS-Event. Status:
+5195,24.5.2021,Mo,02:02:32 RS:0x01 VMON:0xC0
+Battery Voltage: 3750 mV, at last gpsfix: 3746 mV
+SWITCH is ON
+errorflags:0x00
+count_unimpl_ubx:0x00
+ubx_crc_error:0x00
+unexpected:0x00
+noiseperms:0x00
+rtcflags:0x00
+ack_nak_payload ack_nak_data:0x00
+smbus_error_flags:0x92
+nak_error_tx_index:0xFB
+mpu9250_errors:0xB8
+dmp_erraddr:0x91
+dbg_fifcont:0x46
+
+
+GPS-STATUS-Event. Status:
+5195,24.5.2021,Mo,03:17:32 RS:0x01 VMON:0xC0
+Battery Voltage: 3746 mV, at last gpsfix: 3739 mV
+SWITCH is ON
+errorflags:0x00
+count_unimpl_ubx:0x00
+ubx_crc_error:0x00
+unexpected:0x00
+noiseperms:0x00
+rtcflags:0x00
+ack_nak_payload ack_nak_data:0x00
+smbus_error_flags:0x92
+nak_error_tx_index:0xFB
+mpu9250_errors:0xB8
+dmp_erraddr:0x91
+dbg_fifcont:0x46
+
+
+GPS-STATUS-Event. Status:
+5195,24.5.2021,Mo,04:32:32 RS:0x01 VMON:0xC0
+Battery Voltage: 3739 mV, at last gpsfix: 3731 mV
+SWITCH is ON
+errorflags:0x00
+count_unimpl_ubx:0x00
+ubx_crc_error:0x00
+unexpected:0x00
+noiseperms:0x00
+rtcflags:0x00
+ack_nak_payload ack_nak_data:0x00
+smbus_error_flags:0x92
+nak_error_tx_index:0xFB
+mpu9250_errors:0xB8
+dmp_erraddr:0x91
+dbg_fifcont:0x46
+
+
+GPS-STATUS-Event. Status:
+5195,24.5.2021,Mo,05:47:33 RS:0x01 VMON:0xC0
+Battery Voltage: 3734 mV, at last gpsfix: 3721 mV
+SWITCH is ON
+errorflags:0x00
+count_unimpl_ubx:0x00
+ubx_crc_error:0x00
+unexpected:0x00
+noiseperms:0x00
+rtcflags:0x00
+ack_nak_payload ack_nak_data:0x00
+smbus_error_flags:0x92
+nak_error_tx_index:0xFB
+mpu9250_errors:0xB8
+dmp_erraddr:0x91
+dbg_fifcont:0x46
+
+
+GPS-STATUS-Event. Status:
+5195,24.5.2021,Mo,07:02:32 RS:0x01 VMON:0xC0
+Battery Voltage: 3721 mV, at last gpsfix: 3719 mV
+SWITCH is ON
+errorflags:0x00
+count_unimpl_ubx:0x00
+ubx_crc_error:0x00
+unexpected:0x00
+noiseperms:0x00
+rtcflags:0x00
+ack_nak_payload ack_nak_data:0x00
+smbus_error_flags:0x92
+nak_error_tx_index:0xFB
+mpu9250_errors:0xB8
+dmp_erraddr:0x91
+dbg_fifcont:0x46
+
+
+GPS-STATUS-Event. Status:
+5195,24.5.2021,Mo,08:17:33 RS:0x01 VMON:0xC0
+Battery Voltage: 3717 mV, at last gpsfix: 3707 mV
+SWITCH is ON
+errorflags:0x00
+count_unimpl_ubx:0x00
+ubx_crc_error:0x00
+unexpected:0x00
+noiseperms:0x00
+rtcflags:0x00
+ack_nak_payload ack_nak_data:0x00
+smbus_error_flags:0x92
+nak_error_tx_index:0xFB
+mpu9250_errors:0xB8
+dmp_erraddr:0x91
+dbg_fifcont:0x46
+
+
+GPS-STATUS-Event. Status:
+5195,24.5.2021,Mo,09:32:33 RS:0x01 VMON:0xC0
+Battery Voltage: 3707 mV, at last gpsfix: 3707 mV
+SWITCH is ON
+errorflags:0x00
+count_unimpl_ubx:0x00
+ubx_crc_error:0x00
+unexpected:0x00
+noiseperms:0x00
+rtcflags:0x00
+ack_nak_payload ack_nak_data:0x00
+smbus_error_flags:0x92
+nak_error_tx_index:0xFB
+mpu9250_errors:0xB8
+dmp_erraddr:0x91
+dbg_fifcont:0x46
+
+
+GPS-STATUS-Event. Status:
+5197,26.5.2021,We,18:32:32 RS:0x01 VMON:0xC0
+Battery Voltage: 3941 mV, at last gpsfix: 3936 mV
+SWITCH is ON
+errorflags:0x00
+count_unimpl_ubx:0x00
+ubx_crc_error:0x00
+unexpected:0x00
+noiseperms:0x00
+rtcflags:0x00
+ack_nak_payload ack_nak_data:0x00
+smbus_error_flags:0x92
+nak_error_tx_index:0xFB
+mpu9250_errors:0xB8
+dmp_erraddr:0x91
+dbg_fifcont:0x46
+
+
+GPS-STATUS-Event. Status:
+5197,26.5.2021,We,19:47:32 RS:0x01 VMON:0xC0
+Battery Voltage: 3929 mV, at last gpsfix: 3919 mV
+SWITCH is ON
+errorflags:0x00
+count_unimpl_ubx:0x00
+ubx_crc_error:0x00
+unexpected:0x00
+noiseperms:0x00
+rtcflags:0x00
+ack_nak_payload ack_nak_data:0x00
+smbus_error_flags:0x92
+nak_error_tx_index:0xFB
+mpu9250_errors:0xB8
+dmp_erraddr:0x91
+dbg_fifcont:0x46
+
+
+GPS-STATUS-Event. Status:
+5197,26.5.2021,We,21:02:32 RS:0x01 VMON:0xC0
+Battery Voltage: 3913 mV, at last gpsfix: 3901 mV
+SWITCH is ON
+errorflags:0x00
+count_unimpl_ubx:0x00
+ubx_crc_error:0x00
+unexpected:0x00
+noiseperms:0x00
+rtcflags:0x00
+ack_nak_payload ack_nak_data:0x00
+smbus_error_flags:0x92
+nak_error_tx_index:0xFB
+mpu9250_errors:0xB8
+dmp_erraddr:0x91
+dbg_fifcont:0x46
+
+
+GPS-STATUS-Event. Status:
+5197,26.5.2021,We,22:17:32 RS:0x01 VMON:0xC0
+Battery Voltage: 3901 mV, at last gpsfix: 3889 mV
+SWITCH is ON
+errorflags:0x00
+count_unimpl_ubx:0x00
+ubx_crc_error:0x00
+unexpected:0x00
+noiseperms:0x00
+rtcflags:0x00
+ack_nak_payload ack_nak_data:0x00
+smbus_error_flags:0x92
+nak_error_tx_index:0xFB
+mpu9250_errors:0xB8
+dmp_erraddr:0x91
+dbg_fifcont:0x46
+
+
+GPS-STATUS-Event. Status:
+5197,26.5.2021,We,23:32:32 RS:0x01 VMON:0xC0
+Battery Voltage: 3885 mV, at last gpsfix: 3872 mV
+SWITCH is ON
+errorflags:0x00
+count_unimpl_ubx:0x00
+ubx_crc_error:0x00
+unexpected:0x00
+noiseperms:0x00
+rtcflags:0x00
+ack_nak_payload ack_nak_data:0x00
+smbus_error_flags:0x92
+nak_error_tx_index:0xFB
+mpu9250_errors:0xB8
+dmp_erraddr:0x91
+dbg_fifcont:0x46
+
+
+GPS-STATUS-Event. Status:
+5198,27.5.2021,Th,00:47:32 RS:0x01 VMON:0xC0
+Battery Voltage: 3864 mV, at last gpsfix: 3846 mV
+SWITCH is ON
+errorflags:0x00
+count_unimpl_ubx:0x00
+ubx_crc_error:0x00
+unexpected:0x00
+noiseperms:0x00
+rtcflags:0x00
+ack_nak_payload ack_nak_data:0x00
+smbus_error_flags:0x92
+nak_error_tx_index:0xFB
+mpu9250_errors:0xB8
+dmp_erraddr:0x91
+dbg_fifcont:0x46
+
+
+GPS-STATUS-Event. Status:
+5198,27.5.2021,Th,02:02:32 RS:0x01 VMON:0xC0
+Battery Voltage: 3841 mV, at last gpsfix: 3831 mV
+SWITCH is ON
+errorflags:0x00
+count_unimpl_ubx:0x00
+ubx_crc_error:0x00
+unexpected:0x00
+noiseperms:0x00
+rtcflags:0x00
+ack_nak_payload ack_nak_data:0x00
+smbus_error_flags:0x92
+nak_error_tx_index:0xFB
+mpu9250_errors:0xB8
+dmp_erraddr:0x91
+dbg_fifcont:0x46
+
+
+GPS-STATUS-Event. Status:
+5198,27.5.2021,Th,03:17:32 RS:0x01 VMON:0xC0
+Battery Voltage: 3829 mV, at last gpsfix: 3822 mV
+SWITCH is ON
+errorflags:0x00
+count_unimpl_ubx:0x00
+ubx_crc_error:0x00
+unexpected:0x00
+noiseperms:0x00
+rtcflags:0x00
+ack_nak_payload ack_nak_data:0x00
+smbus_error_flags:0x92
+nak_error_tx_index:0xFB
+mpu9250_errors:0xB8
+dmp_erraddr:0x91
+dbg_fifcont:0x46
+
+
+GPS-STATUS-Event. Status:
+5198,27.5.2021,Th,04:32:32 RS:0x01 VMON:0xC0
+Battery Voltage: 3817 mV, at last gpsfix: 3804 mV
+SWITCH is ON
+errorflags:0x00
+count_unimpl_ubx:0x00
+ubx_crc_error:0x00
+unexpected:0x00
+noiseperms:0x00
+rtcflags:0x00
+ack_nak_payload ack_nak_data:0x00
+smbus_error_flags:0x92
+nak_error_tx_index:0xFB
+mpu9250_errors:0xB8
+dmp_erraddr:0x91
+dbg_fifcont:0x46
+
+
+GPS-STATUS-Event. Status:
+5198,27.5.2021,Th,05:47:33 RS:0x01 VMON:0xC0
+Battery Voltage: 3802 mV, at last gpsfix: 3796 mV
+SWITCH is ON
+errorflags:0x00
+count_unimpl_ubx:0x00
+ubx_crc_error:0x00
+unexpected:0x00
+noiseperms:0x00
+rtcflags:0x00
+ack_nak_payload ack_nak_data:0x00
+smbus_error_flags:0x92
+nak_error_tx_index:0xFB
+mpu9250_errors:0xB8
+dmp_erraddr:0x91
+dbg_fifcont:0x46
+
+
+GPS-STATUS-Event. Status:
+5198,27.5.2021,Th,07:02:32 RS:0x01 VMON:0xC0
+Battery Voltage: 3796 mV, at last gpsfix: 3789 mV
+SWITCH is ON
+errorflags:0x00
+count_unimpl_ubx:0x00
+ubx_crc_error:0x00
+unexpected:0x00
+noiseperms:0x00
+rtcflags:0x00
+ack_nak_payload ack_nak_data:0x00
+smbus_error_flags:0x92
+nak_error_tx_index:0xFB
+mpu9250_errors:0xB8
+dmp_erraddr:0x91
+dbg_fifcont:0x46
+
+The last download for tag9221 was a COMPLETE data download.

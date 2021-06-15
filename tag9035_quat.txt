@@ -1,0 +1,1 @@
+data-decoding-software,key-bin-checksum,tag-serial-number,start-timestamp,quaternions-sampling-frequency,quaternions-raw

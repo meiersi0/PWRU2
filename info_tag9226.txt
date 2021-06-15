@@ -1,0 +1,179 @@
+Data decoder version v13 compiled (w)Jun 23 2020 11:01:53
+Going through data:
+
+Data download:
+Basestation Id: 33280
+5200,29.5.2021,Sa,15:10:44
+Animal tag still has 9408 Bytes data for download available.
+Altogether 0.009 MBytes are used, which will be freed
+only after a COMPLETE data download.
+
+B5:GPS-ACC-Tag Software vers No.:10
+
+Printing tag settings tt5_10, SV1, valid at the point in time of the data download:
+Printing enabled features:
+FEATURE_WITH_ACC_VARIANCE
+FEATURE_WITH_BURST_MODE
+FEATURE_WITH_DELAYED_START
+FEATURE_WITH_GPS_NOT_EVERY_DAY
+FEATURE_WITH_MMA8452_SMBUS
+FEATURE_WITH_SOLARVARIANCE
+End of features.
+
+
+-------------- ACC-Settings: ------------------
+ACC INTERVAL: 120 seconds == 2 minutes 0 s
+ACC BYTE COUNT: 480 bytes => 330 ACC SAMPLES (for all axes together)
+ACC-AXES: XYZ
+ACC SAMPLERATE DIVISOR:10
+ACC SAMPLERATE per axis:10.00 Hz
+ACC ON FROM: 00:00 GPSTIME
+ACC ON UNTIL:23:59 GPSTIME
+ACC LOW SPEED INTERVAL FACTOR:1 (if supported by device)
+
+-------------- GPS-Settings: ------------------
+GPS RETRY INTERVAL FACTOR: 1
+GPS LOW SPEED INTERVAL FACTOR: 1
+GPS LOW SPEED THRESHOLD: 50 cm/s
+GPS ON FROM: 00:00 GPSTIME
+GPS ON UNTIL:23:59 GPSTIME
+GPS TIMEOUT: 150 seconds
+
+-------------- Radio- and other Settings: ------------------
+Ping freq:868.259949 MHz = 868259.948730 kHz
+rf_pingpower:8
+PING ON FROM: 04:00 GPSTIME
+PING ON UNTIL:19:00 GPSTIME
+pinger_interval:2
+datalink 2010
+bat_threshold2: code:2949 => 3599 MilliVolt
+bat_threshold1: code:2949 => 3599 MilliVolt
+bat_threshold0: code:2826 => 3449 MilliVolt
+maccess_voltlimit: code:2826 => 3449 MilliVolt
+ACC INVERSE SPEED FACTOR NOT ENABLED (=default)
+access_key:12
+secret_key:13482
+radio_interval:20
+radio_longdelay:900
+burst_length:1
+burst_qperiod:1
+Delayed start:0,4.3.2007,So,00:00:00
+gps_hourshift:0
+gps_daydivisor:1
+###### Tag with variance feature, following settings apply: ######
+ACC-VARIANCE-AXIS: 
+ACC VAR THRESHOLD: 1000
+ACC VAR N1: 2
+ACC VAR N2: 1
+GPS LOW RESOLUTION INTERVAL: 900
+GPS HIGH RESOLUTION INTERVAL: 120
+
+
+Close info:
+
+totalcount up to here: 9408 Bytes, since last open: 9408 Bytes
+(data complete)
+Now analysing data:
+basestation info:
+Rewrite counter:83
+e-obs GmbH, The Digital Telemetry company, Germany
+
+Reset-Event. Status:
+5188,17.5.2021,Mo,12:06:57 RS:0x01 VMON:0xC0
+Hardware trigger (e.g. with magnet)
+Battery Voltage: 3944 mV, at last gpsfix: 0 mV
+SWITCH is ON
+
+
+ON-OFF-SWITCH-Event. Status:
+5188,17.5.2021,Mo,12:06:57 RS:0x01 VMON:0xC0
+Battery Voltage: 3944 mV, at last gpsfix: 0 mV
+SWITCH is OFF
+
+
+Reset-Event. Status:
+5188,17.5.2021,Mo,12:51:17 RS:0x01 VMON:0xC0
+Hardware trigger (e.g. with magnet)
+Battery Voltage: 3944 mV, at last gpsfix: 0 mV
+SWITCH is OFF
+
+
+Reset-Event. Status:
+5199,28.5.2021,Fr,06:28:26 RS:0x01 VMON:0xC0
+Hardware trigger (e.g. with magnet)
+Battery Voltage: 3944 mV, at last gpsfix: 0 mV
+SWITCH is OFF
+
+
+ON-OFF-SWITCH-Event. Status:
+5199,28.5.2021,Fr,06:28:30 RS:0x01 VMON:0xC0
+Battery Voltage: 3944 mV, at last gpsfix: 0 mV
+SWITCH is ON
+
+
+Reset-Event. Status:
+5199,28.5.2021,Fr,06:29:14 RS:0x01 VMON:0xC0
+Hardware trigger (e.g. with magnet)
+Battery Voltage: 3942 mV, at last gpsfix: 0 mV
+SWITCH is ON
+
+
+ON-OFF-SWITCH-Event. Status:
+5199,28.5.2021,Fr,06:29:14 RS:0x01 VMON:0xC0
+Battery Voltage: 3942 mV, at last gpsfix: 0 mV
+SWITCH is OFF
+
+
+Reset-Event. Status:
+5200,29.5.2021,Sa,05:59:35 RS:0x01 VMON:0xC0
+Hardware trigger (e.g. with magnet)
+Battery Voltage: 3968 mV, at last gpsfix: 0 mV
+SWITCH is OFF
+
+
+ON-OFF-SWITCH-Event. Status:
+5200,29.5.2021,Sa,05:59:35 RS:0x01 VMON:0xC0
+Battery Voltage: 3968 mV, at last gpsfix: 0 mV
+SWITCH is ON
+
+
+Reset-Event. Status:
+5200,29.5.2021,Sa,06:03:02 RS:0x01 VMON:0xC0
+Hardware trigger (e.g. with magnet)
+Battery Voltage: 3963 mV, at last gpsfix: 0 mV
+SWITCH is ON
+
+
+ON-OFF-SWITCH-Event. Status:
+5200,29.5.2021,Sa,06:03:02 RS:0x01 VMON:0xC0
+Battery Voltage: 3963 mV, at last gpsfix: 0 mV
+SWITCH is OFF
+
+
+Reset-Event. Status:
+5200,29.5.2021,Sa,06:05:51 RS:0x01 VMON:0xC0
+Hardware trigger (e.g. with magnet)
+Battery Voltage: 3968 mV, at last gpsfix: 0 mV
+SWITCH is OFF
+
+
+Reset-Event. Status:
+5200,29.5.2021,Sa,14:34:39 RS:0x01 VMON:0xC0
+Hardware trigger (e.g. with magnet)
+Battery Voltage: 3973 mV, at last gpsfix: 0 mV
+SWITCH is OFF
+
+
+Reset-Event. Status:
+5200,29.5.2021,Sa,15:05:48 RS:0x01 VMON:0xC0
+Hardware trigger (e.g. with magnet)
+Battery Voltage: 3973 mV, at last gpsfix: 0 mV
+SWITCH is OFF
+
+
+ON-OFF-SWITCH-Event. Status:
+5200,29.5.2021,Sa,15:05:55 RS:0x01 VMON:0xC0
+Battery Voltage: 3974 mV, at last gpsfix: 0 mV
+SWITCH is ON
+
+The last download for tag9226 was a COMPLETE data download.
